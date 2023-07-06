@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-container{
+    display:flex;
+    width:100%;
+    height:85vh;
+}
+.display h2{
+    margin-bottom: 20px;
+}
+.footer{
+    display:flex;
+    height:8vh;
+    background: linear-gradient(196deg, rgba(86,100,102,1) 0%, rgba(10,12,22,1) 47%, rgba(8,122,165,1) 100%);
+    color:white;
+    justify-content: center;
+    font-family: monospace;
+}
+.display-container{
+    display:flex;
+    flex-direction: column;
+    font-family: monospace;
+    justify-content: space-around;
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom:20px;
+    
+}
+.display-wrapper{
+    border:1px solid black;
+    height:auto;
+    width:70%;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.display{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer h2{
+    padding-top:5px;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    background: rgb(86,100,102);
+background: linear-gradient(196deg, rgba(86,100,102,1) 0%, rgba(10,12,22,1) 47%, rgba(8,122,165,1) 100%);
+color:white;
+}
+.header h2{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.form_container{
+flex:1;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-right: 4px solid black;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding:30px;
+    border-radius: 9px;
+    font-family: monospace;
+    width:auto;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.btn{
+    text-align: center;
+}
+form h2{
+    text-align: center;
+    text-decoration:solid;
+}
+.error-msg{
+    color:red;
+}
+button{
+    margin-top:5px;
+    border-radius: 9px;
+    width:130px;
+    /* margin-left:100px; */
+    text-align: center;
+    font-weight:bold;
+}
+button:hover{
+    background-color: rgb(71, 203, 71);
+    color:black;
+}
+
+
+.form_container div{
+    margin-top:15px;
+}
+.display{
+    flex:1;
+}
+input{
+    border:none;
+    border-bottom:1px solid black;
+    border-bottom-style:dotted;
+    cursor:text;
+    outline: none;
+}
+
